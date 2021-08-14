@@ -13,6 +13,7 @@ M2-N=n!
         N()
     else:
         print("Input error...")
+
 def EZ():
     Q3=input('選擇運算位數:(2/3): ')
     if Q3=="2":
@@ -83,6 +84,7 @@ def EZ():
             print("Input error...不支援此運算符號")
     else:
         print("Input error...不支援此運算位數")
+
 def BMI():
     height=(float(input("輸入身高:(公分) ")))
     weight=(float(input("輸入體重:(公斤) ")))
@@ -95,6 +97,7 @@ def BMI():
         print(n,"(體重過重)")
     elif n>=27:
         print(n,"(體重超重)")
+        
 def N():
     n=int(input("請輸入n: "))
     M=1

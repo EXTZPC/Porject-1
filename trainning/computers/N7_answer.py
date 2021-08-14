@@ -20,6 +20,7 @@ def N7():
         N7_9()
     else:
         print("Input error...")
+
 def N7_1():
     print("""溫度轉換器
 ----------------""")
@@ -36,6 +37,7 @@ def N7_1():
         )
     else:
         print("Input error...")
+
 def N7_2():
     print("""等第轉換器
 ----------------""")
@@ -52,6 +54,7 @@ def N7_2():
         print("E")
     else:
         print("Input error...")
+
 def N7_3():
     print("""長度單位轉換器(呎/公分)
 ----------------""")
@@ -70,6 +73,7 @@ def N7_3():
         )
     else:
         print("Input error...")
+
 def N7_4():
     print("""匯率兌換器(台-日) 
 手續費=5%
@@ -86,6 +90,7 @@ def N7_4():
         )
     else:
         print("Input error...")
+
 def N7_5():
     print("""判斷式
 ----------------""")
@@ -105,6 +110,7 @@ def N7_5():
         print("虛根")
     else:
         print("Input error...")
+
 def N7_6():
     n=int(input("請輸入n: "))
     M=1
@@ -114,6 +120,7 @@ def N7_6():
         M+=1
     else:
         print(A)
+
 def N7_7():
     print("""無意義的題目
 ----------------""")
@@ -125,6 +132,7 @@ def N7_7():
         elif x%11!=2:
             continue
         print(x)
+
 def N7_8():
     import random as R
     print("""猜識字機(1~100)
@@ -141,6 +149,7 @@ def N7_8():
         A=int(input("猜猜數字: "))
     else:
         print("Bingo! 你共猜了",n,"次!")
+        
 def N7_9():
     print("""計程車收費跳表
 ----------------""")

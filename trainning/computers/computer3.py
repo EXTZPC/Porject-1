@@ -10,6 +10,7 @@ C3-2=二元二次方程式(二次函數)
         C3_2()
     else:
         print("Input error...")
+
 def C3_1():
     print("""目錄:
 P=判斷式+解
@@ -34,9 +35,10 @@ P=判斷式+解
             print("Input error...")
     else:
         print("Inpu error...")
+
 def C3_2():
     print("""目錄:
-O=求頂點
+O=求頂點(未開發完畢)
 ----------------""")
     Q3=input("選擇運算值:(O/) ")
     if Q3=="O":
