@@ -1,0 +1,4 @@
+cd 路徑
+git init 
+git status
+git add .
